@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 3</title>
+
+    <style>
+
+        .container {
+            max-width: 960px;
+            width: 90%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 35px;
+        }
+
+        .title_container {
+            max-width: 960px;
+            width: 90%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .text_container {
+            max-width: 960px;
+            width: 90%;
+            margin: 25px auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .box {
+            height: 110px;
+            width: 140px;
+            border: outset rgb(231, 231, 231) 3px;
+            border-radius: 10%;
+        }
+
+        .picture {
+            width: 140px;
+            height: 80px;
+            background-image: url('pics/placeholder-image.png');
+            background-size: 140px 80px;
+            background-position: center;
+            background-color: rgba(2, 27, 255, 0.685); 
+            border-radius: 10% 10% 0 0;
+        }
+
+        .title {
+            height: 20px;
+            width: 140px;
+            text-align: center;
+            margin: 3px auto;
+            padding: 3px;
+            border-radius: 0 0 10% 10%;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .container {
+            grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+            grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            .container {
+            grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div>
+        <div class="title_container"><h1>Gallery Heading</h1></div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        <div class="box">
+            <div class="picture"></div>
+            <div class="title">Image Title</div>
+        </div>
+        </div>
+
+    <div>
+        <div class="text_container">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, distinctio mollitia dolore necessitatibus esse harum minima atque eum accusamus consequatur enim explicabo reprehenderit voluptatum repellendus inventore corporis alias exercitationem ducimus, nam minus. Saepe error totam officiis nemo veniam soluta debitis amet quasi id, tenetur, odio ullam consequuntur cupiditate maiores et sunt quisquam magni quod nesciunt modi eveniet. Optio, vero? Vero reiciendis assumenda iusto a voluptates neque beatae, perspiciatis id debitis in quod alias ut sapiente dolorem molestias itaque. Qui fugit praesentium placeat blanditiis quo odit, sed eos quos ex dolorum excepturi maiores architecto dolorem nemo quod quis vero veniam?</p>
+        </div>
+    </div>
+
+</body>
+</html>
